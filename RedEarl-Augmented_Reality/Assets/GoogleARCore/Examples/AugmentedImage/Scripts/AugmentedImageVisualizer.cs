@@ -42,46 +42,57 @@ namespace GoogleARCore.Examples.AugmentedImage
         /// A model for the lower left corner of the frame to place when an image is detected.
         /// </summary>
         public GameObject MainModel;
+        public GameObject SecondModel;
         FileInfo f;
         /// <summary>
         /// The Unity Update method.
         /// </summary>
         public void Update()
         {
-            int toggle = 0;
+            
 
             if (Image == null || Image.TrackingState != TrackingState.Tracking)
             {
                 MainModel.SetActive(false);
+                SecondModel.SetActive(false);
 
                 return;
             }
 
-            if (toggle == 0)
+           
+
+            f = new FileInfo(Application.persistentDataPath + "\\" + "myFile.txt");
+
+            StreamWriter w;
+            if (!f.Exists)
             {
-
-                f = new FileInfo(Application.persistentDataPath + "\\" + "myFile.txt");
-
-                StreamWriter w;
-                if (!f.Exists)
-                {
-                    w = f.CreateText();
-                }
-                else
-                {
-                    f.Delete();
-                    w = f.CreateText();
-                }
-                w.WriteLine(Image.DatabaseIndex);
-                w.Close();
-                toggle = 1;
+                w = f.CreateText();
             }
+            else
+            {
+                f.Delete();
+                w = f.CreateText();
+            }
+            w.WriteLine(Image.DatabaseIndex);
+            w.Close();
 
             float halfWidth = Image.ExtentX / 2;
             float halfHeight = Image.ExtentZ / 2;
-            MainModel.transform.localPosition = (halfWidth * Vector3.left) + (halfHeight * Vector3.back);
 
-            MainModel.SetActive(true);
+            if (Image.DatabaseIndex == 0)
+            {
+                SecondModel.SetActive(false);
+                MainModel.transform.localPosition = (halfWidth * Vector3.left) + (halfHeight * Vector3.back);
+                MainModel.SetActive(true);
+            }
+            else if (Image.DatabaseIndex == 1)
+            {
+                MainModel.SetActive(false);
+                SecondModel.transform.localPosition = (halfWidth * Vector3.left) + (halfHeight * Vector3.back);
+                SecondModel.SetActive(true);
+            }
+            
+
         }
     }
 }
