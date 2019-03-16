@@ -1,6 +1,6 @@
 Android
 PlayerPath?
-C:/Users/Michael/Desktop/ARCore Project/RedEarl-Augmented_Reality/RedEarl-Augmented_Reality/projecttest.apk
+C:/Users/Michael/Desktop/arcore test 3/RedEarl-Augmented_Reality/RedEarl-Augmented_Reality/transparenettest.apk
 SceneListBegin?
 Assets/Scenes/MainScene.unity
 SceneListEnd?
