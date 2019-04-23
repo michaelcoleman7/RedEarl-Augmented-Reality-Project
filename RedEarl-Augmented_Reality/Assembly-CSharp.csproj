@@ -242,6 +242,7 @@
      <None Include="Assets\GoogleARCore\Examples\Common\Materials\Shaders\PointCloud.shader" />
      <None Include="Assets\GoogleARCore\Examples\ComputerVision\Materials\EdgeDetectionBackground.shader" />
      <None Include="Assets\GoogleARCore\Examples\Common\Materials\Shaders\MobileSpecularWithLightEstimation.shader" />
+     <None Include="Assets\PollyPrivateers\Readme.txt" />
  <Reference Include="Unity.TextMeshPro.Editor">
  <HintPath>C:/Users/Michael/Desktop/ARCore Project/RedEarl-Augmented_Reality/RedEarl-Augmented_Reality/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
  </Reference>
