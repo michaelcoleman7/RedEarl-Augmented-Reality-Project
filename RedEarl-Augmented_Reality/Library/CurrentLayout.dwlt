@@ -114,7 +114,7 @@ MonoBehaviour:
   m_MinSize: {x: 683, y: 498}
   m_MaxSize: {x: 14004, y: 14048}
   vertical: 0
-  controlID: 112
+  controlID: 57
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -139,7 +139,7 @@ MonoBehaviour:
   m_MinSize: {x: 406, y: 498}
   m_MaxSize: {x: 10002, y: 14048}
   vertical: 1
-  controlID: 113
+  controlID: 11
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -164,7 +164,7 @@ MonoBehaviour:
   m_MinSize: {x: 406, y: 224}
   m_MaxSize: {x: 8006, y: 4024}
   vertical: 0
-  controlID: 114
+  controlID: 12
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -381,9 +381,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 70510000
-      m_LastClickedID: 20848
-      m_ExpandedIDs: ec9ffeff0aa0feff02d3feff20d3feff540bffff720bffffc24dffffe04dffffe271ffff0072ffff04b5ffff22b5ffff9afbffff
+      m_SelectedIDs: 
+      m_LastClickedID: 0
+      m_ExpandedIDs: 8245ffffa045ffff4a48ffff9afbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -551,20 +551,20 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/GoogleARCore/Examples/AugmentedImage/Prefabs
+    - Assets/GoogleARCore/Examples/AugmentedFaces
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/GoogleARCore/Examples/AugmentedImage/Prefabs
+  - Assets/GoogleARCore/Examples/AugmentedFaces
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\Michael\Desktop\ARCore Project\RedEarl-Augmented_Reality\RedEarl-Augmented_Reality
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 255}
-    m_SelectedIDs: f62f0000
-    m_LastClickedID: 12278
-    m_ExpandedIDs: 00000000e62a0000a02c0000c62c0000d22c0000982d0000902e0000f22e0000f62f000040300000c63200009e3300003a3500004e350000063600000237000000ca9a3b
+    scrollPos: {x: 0, y: 130.4127}
+    m_SelectedIDs: f0350000
+    m_LastClickedID: 13808
+    m_ExpandedIDs: 00000000e82a0000a22c0000c82c0000d42c00009a2d0000922e0000b22e0000f42e0000f82f000042300000c8320000a03300003c35000050350000083600000437000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -592,7 +592,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000e62a0000a02c0000c62c0000d22c0000982d0000902e0000f22e0000f62f000040300000c63200009e3300003a3500004e3500000636000002370000
+    m_ExpandedIDs: 00000000e82a0000a22c0000c82c0000d42c00009a2d0000922e0000f42e0000f82f000042300000c8320000a03300003c350000503500000836000004370000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -619,7 +619,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 1
+    m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: be2a00008a2300003a32000068300000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
