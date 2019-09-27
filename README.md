@@ -6,3 +6,6 @@ Clone project from git repository into folder, open project in unity, go to file
 
 ### User’s Guide
 The user needs to download the apk to their device ( Application will be put on app store at a later date). When downloaded the user should open the application and when opened the user is greeted with a screen welcoming them and telling them to locate the image which is needed to spawn the building. After being located the user must fit the image inside the scanning layout displayed on the device and the building will then spawn. When spawned the user can explore the building inside and out. The application is a single user experience only. Although other people can be seen on your camera in the background e.g. through windows etc...
+
+## Link to Finished Application on Google Play Store
+https://play.google.com/store/apps/details?id=com.GMITSoftware.RedEarl_Augmented_Reality&hl=en
